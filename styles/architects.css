@@ -116,6 +116,27 @@ main > section{
     margin-left: 73px;
     min-width: 530px;
 }
+/* feature related style */
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+#feature-section-title{
+    border-right: 1px solid #FF900E;
+    padding-left: 20px;
+}
+.features{
+    gap: 140px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
 
 #quick-list{
     font-weight: 500;
@@ -195,8 +216,9 @@ main > section{
     .our-features{
         margin: 50px auto;
     }
-    .sponsor-companies{
-        grid-template-columns: repeat(3, 1fr);
+    .sponsor-companies .facts-container{
+        grid-template-columns: repeat(2, 1fr);
         gap: 50px;
+        justify-items: center;
     }
 }
